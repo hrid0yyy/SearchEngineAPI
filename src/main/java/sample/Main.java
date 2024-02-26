@@ -32,7 +32,7 @@ public class Main {
 
         HttpRequest posRequest = HttpRequest.newBuilder()
                 .uri(new URI("https://open-ai21.p.rapidapi.com/conversationgpt35"))
-                .header("X-RapidAPI-Key", "0bef477c4emshfa0da64e0b9b356p1de2a2jsn69aa87927c82")
+                .header("X-RapidAPI-Key", "YOUR_RAPID_API_TOKEN")
                 .header("X-RapidAPI-Host", "open-ai21.p.rapidapi.com")
                 .POST(HttpRequest.BodyPublishers.ofString(json))
                 .build();
